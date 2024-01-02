@@ -1,13 +1,16 @@
-<script>
+<script setup>
+import Header from '@/components/Header.vue'
+import CardList from '@/components/CardList.vue'
 </script>
 
 <template>
-  <div class="container">
-    <div class="mb-5 ">
-      <p class="text-left">Crossouts</p>
-    </div>
-    <div class="mb-20 ">
-      <p class="text-left">Crossouts</p>
+  <div class="w-4/5 m-auto bg-white rounded-xl shadow-xl mt-12 overflow-hidden">
+    <Header />
+
+    <div class="p-5">
+      <p class="text-xl font-bold mb-5">All products</p>
+      
+      <CardList />
     </div>
   </div>
 </template>
