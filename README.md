@@ -33,3 +33,5 @@ npm run build
 ```sh
 npm run lint
 ```
+
+### Lesson in 2:35:19
