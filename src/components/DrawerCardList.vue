@@ -7,6 +7,5 @@ import DrawerCard from './DrawerCard.vue'
         <DrawerCard cardImage="/sneakers/sneakers-1.jpg" cardTitle="Мужские Кроссовки Nike Blazer Mid Suede" :cardPrice="200" />
         
         
-
     </div>
 </template>
